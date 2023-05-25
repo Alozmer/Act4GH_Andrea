@@ -14,7 +14,7 @@ public static void imprimirArray(int[] array) {
     for (int numeros : array) {
         System.out.print(numeros + " ");
     }
-    System.out.println(); // Salto de línea
+    System.out.println();
 }
 
 }
