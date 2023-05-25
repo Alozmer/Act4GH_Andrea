@@ -8,4 +8,13 @@ public static void insertarNumerosAleatorios() {
 	    numeros[i] = (int) (Math.random() * 10) + 1;
 	}
 }
+
+public static void imprimirArray(int[] array) {
+    System.out.println("Contenido del array:");
+    for (int numeros : array) {
+        System.out.print(numeros + " ");
+    }
+    System.out.println(); //Salto de línea
+}
+
 }
